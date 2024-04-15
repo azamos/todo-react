@@ -1,0 +1,94 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.task{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  /* align-items:center; */
+}
+.dashboard{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 1vmax;
+  /* align-items:center; */
+}
+h1{
+  color: white;
+}
+body {
+  /* Set the background image */
+  background-image: url('../images/bg-desktop-light.jpg');
+  background-repeat: no-repeat;
+
+  /* Make the background image cover only the top 25% of the page */
+  background-size: 100% 25%; /* Cover full width, auto height */
+  background-position: center top; /* Position at center top */
+
+  /* Set the height of the body to 25% of the viewport height */
+  height: 25vh; /* 25% of the viewport height */
+  
+  /* Ensure the background image is fixed to stay in place */
+  background-attachment: fixed; /* Fixed background position */
+  
+  /* Additional styles to ensure the rest of the content flows */
+  margin: 0;
+  padding: 0;
+}
+.app{
+  display: flex;
+  flex-direction: column;
+  justify-content:flex-start;
+  height: 100vh;
+}
+.main{
+  /* min-height: 10vh; */
+  /* background-color: white; */
+}
+.taskList{
+  background-color: white;
+}
+.searchInput{
+  width: 25vw;
+}
+.Completed{
+  text-decoration: line-through;
+}
+.navbar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar-item{
+  width: 33%;
+}
+.main{
+  width: 40vw;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.taskList{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border-radius: 20px;
+  box-shadow: 1px 1px 1px 1px rgb(21, 21, 21);
+}
+.task{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+.addTask{
+  height: 4vh;
+  width: 100%;
+}
